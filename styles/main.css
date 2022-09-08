@@ -44,14 +44,14 @@
   --clr-grey-900: hsl(0, 0%, 10%);
   --clr-grey-1000: hsl(0, 0%, 0%);
 
-  --ff-primary: "Kumbh Sans", Verdana, sans-serif;
-  --ff-secondary: "Kumbh Sans", Arial, sans-serif;
+  --ff-primary: "Source Sans Pro", Arial, sans-serif;
+  --ff-secondary: "Montserrat", Verdana, sans-serif;
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-secondary);
 
-  --fw-light: 500;
-  --fw-regular: 500;
-  --fw-bold: 600;
+  --fw-light: 400;
+  --fw-regular: 400;
+  --fw-bold: 500;
 
   --fs-base: 16px;
   --fs-100: 0.6rem;
