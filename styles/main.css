@@ -273,6 +273,7 @@ a:where(:hover, :focus, :focus-visible) {
   display: grid;
   grid-template-columns: repeat(var(--card-grid-columns), 1fr);
   gap: var(--size-400);
+  min-height: calc(100vh - 19em);
 }
 
 @media (min-width: 48em) {
