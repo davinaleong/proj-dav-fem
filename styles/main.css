@@ -233,6 +233,13 @@ a:where(:hover, :focus, :focus-visible) {
 }
 
 /** Content - Header **/
+.primary-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .nav-list {
   width: 100%;
   display: flex;
@@ -252,6 +259,10 @@ a:where(:hover, :focus, :focus-visible) {
 }
 
 /** Content - Main Content **/
+main {
+  margin-top: 5em;
+}
+
 .divider {
   --spacer-divider: var(--size-400);
   --width-divider: 5em;
