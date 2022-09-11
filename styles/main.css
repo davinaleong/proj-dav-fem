@@ -296,6 +296,7 @@ a:where(:hover, :focus, :focus-visible) {
   max-width: 15ch;
   text-align: center;
   margin-inline: auto;
+  display: grid;
 }
 
 .card-footer {
