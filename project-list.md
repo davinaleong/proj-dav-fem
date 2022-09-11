@@ -10,7 +10,9 @@
 8. Interactive Comments Section
 9. Manage Landing Page [ADDED]
 10. Tip Calculator
-11. Advice Generator
-12. Interactive Rating
-13. QR Code
+11. Advice Generator [ADDED]
+12. Interactive Rating [ADDED]
+13. QR Code [ADDED]
 14. Intro Section [ADDED]
+15. Time Tracking [ADDED]
+16. Testimonial Grid
