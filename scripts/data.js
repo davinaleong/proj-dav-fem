@@ -35,7 +35,7 @@ const projects = [
   {
     name: "Interactive Rating Component",
     completedAt: "2022-07-29",
-    image: "fem-qr-code-component.png",
+    image: "fem-interactive-rating-component.png",
     demoLink:
       "https://davinaleong.github.io/fem-interactive-rating-component/",
     repoLink:
@@ -97,5 +97,93 @@ const projects = [
       "https://github.com/davinaleong/fem-3-column-preview-card-component",
     challengeLink:
       "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
+  },
+  {
+    name: "Stats Preview Card Component",
+    completedAt: "2022-08-16",
+    image: "fem-stats-preview-card-component.png",
+    demoLink:
+      "https://github.com/davinaleong/fem-stats-preview-card-component",
+    repoLink:
+      "https://github.com/davinaleong/fem-3-column-preview-card-component",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62",
+  },
+  {
+    name: "Expenses Chart Component",
+    completedAt: "2022-08-17",
+    image: "fem-expenses-chart-component.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-expenses-chart-component/",
+    repoLink:
+      "https://github.com/davinaleong/fem-3-column-preview-card-component",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt",
+  },
+  {
+    name: "NFT Preview Card Component",
+    completedAt: "2022-08-22",
+    image: "fem-nft-preview-card-component.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-nft-preview-card-component/",
+    repoLink:
+      "https://github.com/davinaleong/fem-nft-preview-card-component",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
+  },
+  {
+    name: "Loopstudios Landing Page",
+    completedAt: "2022-08-25",
+    image: "fem-loopstudios-landing-page.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-loopstudios-landing-page/",
+    repoLink:
+      "https://github.com/davinaleong/fem-loopstudios-landing-page",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw",
+  },
+  {
+    name: "Crowdfunding Product Page",
+    completedAt: "2022-08-22",
+    image: "fem-loopstudios-landing-page.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-crowdfunding-product-page/",
+    repoLink:
+      "https://github.com/davinaleong/fem-crowdfunding-product-page",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR",
+  },
+  {
+    name: "FAQ Accoridon Card",
+    completedAt: "2022-09-07",
+    image: "fem-faq-accordion-card.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-faq-accordion-card/",
+    repoLink:
+      "https://github.com/davinaleong/fem-faq-accordion-card",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam",
+  },
+  {
+    name: "Sunnyside Agency Landing Page",
+    completedAt: "2022-08-12",
+    image: "fem-sunnyside-agency-landing-page.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-sunnyside-agency-landing-page/",
+    repoLink:
+      "https://github.com/davinaleong/fem-sunnyside-agency-landing-page",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef",
+  },
+  {
+    name: "Testimonials Grid",
+    completedAt: "2022-08-26",
+    image: "fem-testimonials-grid.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-testimonials-grid/",
+    repoLink:
+      "https://github.com/davinaleong/fem-testimonials-grid",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7",
   },
 ]

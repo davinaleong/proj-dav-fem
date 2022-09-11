@@ -3,7 +3,7 @@ console.log(`main.js loaded`)
 // Declate elements
 const cardGridEl = document.querySelector(`[data-card-grid]`)
 
-const card = (project) => {
+const card = (project, index = 0) => {
     const { name, completedAt, image, demoLink, repoLink, challengeLink } = project
     const date = dayjs(completedAt).format(`DD MMM YYYY`)
 
@@ -11,7 +11,7 @@ const card = (project) => {
     <div class="card | bg-neutral-800">
         <img src="./images/${image}" alt="${name} Image" class="card-image">
         <div class="card-body | p-400">
-            <h2 class="card-heading | ff-heading fs-600 fw-bold mb-300">${name}</h2>
+            <h2 class="card-heading | ff-heading fs-600 fw-bold mb-300">${index+1}) ${name}</h2>
             <p><em>${date}</em></p>
         </div>
         <div class="card-footer">
@@ -28,8 +28,8 @@ let cardGridInnerHtml = ``
 // Sort projects by completed at in descending order
 const sortedProjects = projects.sort((a, b) => (a.completedAt < b.completedAt) ? 1 : -1)
 
-sortedProjects.forEach(project => {
-    cardGridInnerHtml += card(project)
+sortedProjects.forEach((project, index) => {
+    cardGridInnerHtml += card(project, index)
 })
 
 cardGridEl.innerHTML = cardGridInnerHtml

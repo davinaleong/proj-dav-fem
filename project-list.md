@@ -1,18 +1,19 @@
 # FEM Project List
 
-1. Sunnyside
-2. FAQ Accordion
-3. Crowdfunding
-4. Loopstudios
-5. NTF Preview Card
-6. Stats Preview Card
-7. 3 Column Preview Card
-8. Interactive Comments Section
-9. Manage Landing Page [ADDED]
-10. Tip Calculator [ADDED]
-11. Advice Generator [ADDED]
-12. Interactive Rating [ADDED]
-13. QR Code [ADDED]
-14. Intro Section [ADDED]
-15. Time Tracking [ADDED]
-16. Testimonial Grid
+1. Sunnyside [ADDED]
+1. FAQ Accordion [ADDED]
+1. Crowdfunding [ADDED]
+1. Loopstudios [ADDED]
+1. NTF Preview Card [ADDED]
+1. Stats Preview Card [ADDED]
+1. 3 Column Preview Card [ADDED]
+1. Interactive Comments Section [ADDED]
+1. Manage Landing Page [ADDED]
+1. Tip Calculator [ADDED]
+1. Advice Generator [ADDED]
+1. Interactive Rating [ADDED]
+1. QR Code [ADDED]
+1. Intro Section [ADDED]
+1. Time Tracking [ADDED]
+1. Testimonial Grid [ADDED]
+1. Expenses Chart [ADDED]
