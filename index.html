@@ -23,12 +23,9 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Source+Sans+Pro:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
@@ -36,6 +33,49 @@
     <script defer src="./scripts/main.js"></script>
   </head>
   <body class="text-neutral-100 bg-neutral-900">
+    <main class="container">
+      <header class="primary-header | py-400">
+        <nav class="primary-nav">
+          <ul class="nav-list" role="list">
+            <li class="nav-item">
+              <a href="https://www.davina-devs.com" class="nav-link link-primary">Back to Dav/Devs</a>
+            </li>
+            <li class="nav-item">
+              <a href="./" class="nav-link brand"><img src="./images/fem-projects-logo.svg" alt="Brand" srcset=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="#top" class="nav-link link-primary">Back to Top</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero-section | ta-center py-400">
+        <h1 class="text-primary-500 ff-heading fs-800 fw-bold lh-200 mb-600">Davina Leong's<br>Frontend Mentor Projects</h1>
+        <p>Here is a collection of my demos for <a class="link-primary" href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a> challenges.<br>Feel free to look through the code for inspiration.</p>
+      </section>
+
+      <div class="divider divider-primary"></div>
+
+      <section class="cards-section card-grid | py-600">
+        <div class="card | bg-neutral-800">
+          <img src="./images/fem-sunnyside-agency-landing-page.png" alt="Sunnyside Agency Landing Page" class="card-image">
+          <div class="card-body | p-400">
+            <h2 class="ff-heading fs-600 fw-bold">Sunnyside Agency Landing Page</h2>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="link-primary" target="_blank">View<br>Demo</a>
+            <a href="#" class="link-primary" target="_blank">View<br>Repo</a>
+            <a href="#" class="link-primary" target="_blank">View<br>Challenge</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="primary-footer | py-400">
+        <p class="copyright">DavFEM &copy; Davina Leong, 2022</p>
+      </footer>
+    </main>
+
     <div class="swatches">
       <div class="bg-primary-300">&nbsp;</div>
       <div class="bg-primary-500">&nbsp;</div>

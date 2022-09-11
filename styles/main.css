@@ -2,7 +2,8 @@
     - Root
     - Content
       - Content - General Styling
-      - Content - Layout
+      - Content - Header
+      - Content - Main Content
     - Utility
       - Utility - Colours
       - Utility - Background Colours
@@ -141,6 +142,7 @@ b {
   --container-width: 1110px;
 
   max-width: var(--container-width);
+  width: 100%;
   padding-inline: var(--size-400);
   margin-inline: auto;
 }
@@ -229,7 +231,78 @@ a:where(:hover, :focus, :focus-visible) {
   --btn-clr-border-hover: var(--clr-neutral-600);
 }
 
-/** Content - Layout **/
+/** Content - Header **/
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: block;
+  width: 3em;
+}
+
+.copyright {
+  font-size: var(--fs-300);
+  font-style: italic;
+  text-align: center;
+}
+
+/** Content - Main Content **/
+.divider {
+  --spacer-divider: var(--size-400);
+  --width-divider: 5em;
+  --clr-divider: var(--clr-grey-400);
+
+  width: var(--width-divider);
+  height: 2px;
+  margin-block: var(--spacer-divider);
+  margin-inline: auto;
+  background-color: var(--clr-divider);
+}
+
+.divider-primary {
+  --clr-divider: var(--clr-primary-500);
+}
+
+.card-grid {
+  --card-grid-columns: 1;
+  
+  display: grid;
+  grid-template-columns: repeat(var(--card-grid-columns), 1fr);
+  gap: var(--size-400);
+}
+
+@media (min-width: 48em) {
+  .card-grid {
+    --card-grid-columns: 2;
+  }
+}
+
+@media (min-width: 62em) {
+  .card-grid {
+    --card-grid-columns: 3;
+  }
+}
+
+.card-image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: var(--size-400);
+}
 
 /** Content - End **/
 
