@@ -292,6 +292,12 @@ a:where(:hover, :focus, :focus-visible) {
   object-fit: cover;
 }
 
+.card-heading {
+  max-width: 15ch;
+  text-align: center;
+  margin-inline: auto;
+}
+
 .card-footer {
   display: flex;
   justify-content: space-between;
@@ -302,6 +308,15 @@ a:where(:hover, :focus, :focus-visible) {
   width: 100%;
   text-align: center;
   padding: var(--size-400);
+}
+
+@media (min-width: 48em) {
+  .card-heading {
+    max-width: 100%;
+    text-align: left;
+    margin-inline-start: 0;
+    margin-inline-end: auto;
+  }
 }
 
 /** Content - End **/
