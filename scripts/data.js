@@ -76,4 +76,26 @@ const projects = [
     challengeLink:
       "https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX",
   },
+  {
+    name: "Interactive Comments Section",
+    completedAt: "2022-08-02",
+    image: "fem-interactive-comments.png",
+    demoLink:
+      "https://davina-fem-interactive-comments-section.netlify.app/",
+    repoLink:
+      "https://github.com/davinaleong/fem-interactive-comments-section",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9",
+  },
+  {
+    name: "3-Column Preview Card Component",
+    completedAt: "2022-08-16",
+    image: "fem-3-column-preview-card-component.png",
+    demoLink:
+      "https://davinaleong.github.io/fem-3-column-preview-card-component/",
+    repoLink:
+      "https://github.com/davinaleong/fem-3-column-preview-card-component",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
+  },
 ]

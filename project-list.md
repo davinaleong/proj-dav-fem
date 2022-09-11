@@ -9,7 +9,7 @@
 7. 3 Column Preview Card
 8. Interactive Comments Section
 9. Manage Landing Page [ADDED]
-10. Tip Calculator
+10. Tip Calculator [ADDED]
 11. Advice Generator [ADDED]
 12. Interactive Rating [ADDED]
 13. QR Code [ADDED]
