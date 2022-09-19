@@ -1,7 +1,16 @@
 const projects = [
   {
+    name: "Order Summary Component",
+    completedAt: "2022-09-19",
+    image: "fem-order-summary-component.png",
+    demoLink: "https://davinaleong.github.io/fem-order-summary-component/",
+    repoLink: "https://github.com/davinaleong/fem-order-summary-component",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-VLWLZV6yBu",
+  },
+  {
     name: "Product Preview Card Component",
-    completedAt: "2022-07-19",
+    completedAt: "2022-09-19",
     image: "fem-product-preview-card-component.png",
     demoLink:
       "https://davinaleong.github.io/fem-product-preview-card-component/",
