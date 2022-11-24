@@ -23,9 +23,12 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
@@ -40,10 +43,19 @@
         <nav class="primary-nav">
           <ul class="nav-list" role="list">
             <li class="nav-item">
-              <a href="https://www.davina-devs.com" class="nav-link link-primary">Back to Dav/Devs</a>
+              <a
+                href="https://www.davina-devs.com"
+                class="nav-link link-primary"
+                >Back to Dav/Devs</a
+              >
             </li>
             <li class="nav-item">
-              <a href="./" class="nav-link brand"><img src="./images/fem-projects-logo.svg" alt="Brand" srcset=""></a>
+              <a href="./" class="nav-link brand"
+                ><img
+                  src="./images/fem-projects-logo.svg"
+                  alt="Brand"
+                  srcset=""
+              /></a>
             </li>
             <li class="nav-item">
               <a href="#top" class="nav-link link-primary">Back to Top</a>
@@ -55,23 +67,43 @@
 
     <main class="container">
       <section class="hero-section | ta-center py-400">
-        <h1 class="text-primary-500 ff-heading fs-800 fw-bold lh-200 mb-600">Davina Leong's<br>Frontend Mentor Projects</h1>
-        <p>Here is a collection of my demos for <a class="link-primary" href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a> challenges.<br>Feel free to look through the code for inspiration.</p>
+        <h1 class="text-primary-500 ff-heading fs-800 fw-bold lh-200 mb-600">
+          Davina Leong's<br />Frontend Mentor Projects
+        </h1>
+        <p>
+          Here is a collection of my demos for
+          <a
+            class="link-primary"
+            href="https://www.frontendmentor.io"
+            target="_blank"
+            >Frontend Mentor</a
+          >
+          challenges.<br />Feel free to look through the code for inspiration.
+        </p>
       </section>
 
       <div class="divider divider-primary"></div>
 
       <section class="cards-section card-grid | py-600" data-card-grid>
         <div class="card | bg-neutral-800">
-          <img src="./images/fem-sunnyside-agency-landing-page.png" alt="Sunnyside Agency Landing Page" class="card-image">
+          <img
+            src="./images/fem-sunnyside-agency-landing-page.png"
+            alt="Sunnyside Agency Landing Page"
+            class="card-image"
+            data-element="card-image"
+          />
           <div class="card-body | p-400">
-            <h2 class="card-heading | ff-heading fs-600 fw-bold mb-300">Sunnyside Agency Landing Page</h2>
+            <h2 class="card-heading | ff-heading fs-600 fw-bold mb-300">
+              Sunnyside Agency Landing Page
+            </h2>
             <p><em>20 Apr 2022</em></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="link-primary" target="_blank">View<br>Demo</a>
-            <a href="#" class="link-primary" target="_blank">View<br>Repo</a>
-            <a href="#" class="link-primary" target="_blank">View<br>Challenge</a>
+            <a href="#" class="link-primary" target="_blank">View<br />Demo</a>
+            <a href="#" class="link-primary" target="_blank">View<br />Repo</a>
+            <a href="#" class="link-primary" target="_blank"
+              >View<br />Challenge</a
+            >
           </div>
         </div>
       </section>
@@ -80,5 +112,19 @@
         <p class="copyright">DavFEM &copy; Davina Leong, 2022</p>
       </footer>
     </main>
+
+    <div class="modal" data-element="modal">
+      <div class="modal-dialog container">
+        <button class="btn btn-modal-close" data-element="btn-modal-close">
+          Close
+        </button>
+
+        <img
+          src="./images/fem-3-column-preview-card-component.png"
+          alt=""
+          data-element="modal-image"
+        />
+      </div>
+    </div>
   </body>
 </html>

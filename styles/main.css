@@ -232,6 +232,13 @@ a:where(:hover, :focus, :focus-visible) {
   --btn-clr-border-hover: var(--clr-neutral-600);
 }
 
+.btn-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: var(--fs-600);
+}
+
 /** Content - Header **/
 .primary-header {
   width: 100%;
@@ -281,7 +288,7 @@ main {
 
 .card-grid {
   --card-grid-columns: 1;
-  
+
   display: grid;
   grid-template-columns: repeat(var(--card-grid-columns), 1fr);
   gap: var(--size-400);
@@ -308,6 +315,7 @@ main {
 .card-image {
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .card-body {
@@ -332,6 +340,23 @@ main {
   width: 100%;
   text-align: center;
   padding: var(--size-400);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: hsla(0, 0%, 0%, 0.8);
+}
+
+.modal[data-open="true"] {
+  display: block;
+}
+
+.modal-dialog {
+  display: grid;
+  place-items: center;
+  min-height: 100%;
 }
 
 @media (min-width: 48em) {
