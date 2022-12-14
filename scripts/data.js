@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: "News Homepage",
+    completedAt: "2022-12-14",
+    image: "fem-news-homepage.png",
+    demoLink: "https://davinaleong.github.io/fem-news-homepage/",
+    repoLink: "https://github.com/davinaleong/fem-news-homepage",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl",
+  },
+  {
     name: "Profile Card Component",
     completedAt: "2022-12-07",
     image: "fem-profile-card-component.png",
