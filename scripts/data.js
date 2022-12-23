@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: "Multi-step Form",
+    completedAt: "2022-12-23",
+    image: "fem-multi-step-form.png",
+    demoLink: "https://davinaleong.github.io/fem-multi-step-form/",
+    repoLink: "https://github.com/davinaleong/fem-multi-step-form",
+    challengeLink:
+      "https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ",
+  },
+  {
     name: "News Homepage",
     completedAt: "2022-12-14",
     image: "fem-news-homepage.png",
